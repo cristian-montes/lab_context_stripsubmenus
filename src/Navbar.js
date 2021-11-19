@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './images/logo.svg'
 import { FaBars } from 'react-icons/fa'
 import { useGlobalContext } from './context'
+import { useState } from 'react/cjs/react.development'
 
 const Navbar = () => {
   const {openSidebar, openSubmenu, closeSubmenu} = useGlobalContext();
